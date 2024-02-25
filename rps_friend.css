@@ -1,0 +1,87 @@
+body{
+    background-color: antiquewhite;
+    color: 	#8B4513;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    text-align: center;
+    font-size: 6vmin;
+    color: 	#8B4513;
+    font-weight: 900;
+    cursor: default;
+    background-color: black;
+}
+
+.title{
+    color: white;
+    font-weight: 700;
+    margin: 0%;
+    padding-top: 1.5%;
+}
+
+.top{
+    padding-bottom: 1.5%;
+}
+
+.container{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+img{
+    border: 5px solid black;
+    /* display: inline-block; */
+    position: absolute;
+    border-radius: 50%;
+    width: 15%;
+}
+
+.imgg{
+    width: 15%;
+}
+
+img:hover{
+    transform: scale(90%);
+    cursor: pointer;
+}
+
+img:active{
+    transform: scale(85%);
+    cursor: pointer;
+}
+
+#img1{
+    top: 30vmin;
+    left: 40vmin;
+}
+
+#img2{
+    top: 30vmin;
+    left: 87vmin;
+}
+
+#img3{
+    top: 30vmin;
+    right: 40vmin;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 21.5rem;
+    gap: 5rem;
+    background-color: black;
+    padding-top: 1.5%;
+}
+
+#userScore, #compScore{
+    font-size: 4rem;
+    margin: 0%;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+    /* text-align: center; */
+}
+
+h1{
+    text-align: center;
+    font-size: 6vmin;
+    color: 	#8B4513;
+    font-weight: 900;
+    cursor: default;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #8B4513;
+    border: 1vmin solid black;
+    padding: 2vmin 6vmin;
+    font-size: 5vmin;
+    border-radius: 2vmin;
+}
+
+#comp{
+    position: absolute;
+    top: 30vmin;
+    left: 83vmin;   
+}
+
+#comp:hover{
+    transform: scale(95%);
+}
+
+#user{
+    position: absolute;
+    top: 45vmin;
+    left: 83vmin;
+    padding: 2vmin 10.5vmin;
+}
+
+#user:hover{
+    transform: scale(95%);
+}
